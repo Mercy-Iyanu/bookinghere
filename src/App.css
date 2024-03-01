@@ -3,6 +3,17 @@
 @import 'tailwindcss/utilities';
 
 
+.container-fluid {
+  margin: 10px;
+}
+
 .header {
   background-color: #003B95;
+}
+
+.offer-background {
+  background-image: url('../public/images/newAdv.png');
+  height: 30vh;
+  background-size: cover;
+  color: white;
 }
