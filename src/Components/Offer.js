@@ -4,7 +4,7 @@ import Button from './Button'
 export default function Offer() {
     return (
         <div>
-            <div className='container-fluid mt-5'>
+            <div className='container-fluid mt-5 mb-2'>
                 <h3 className='h3 fw-bold'>Offers</h3>
                 <p>Promotions, deals, and special offers for you</p>
             </div>

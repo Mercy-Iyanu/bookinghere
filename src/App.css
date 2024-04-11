@@ -59,3 +59,22 @@
   background-size: cover;
   color: white;
 }
+
+.active-dest {
+  border: 1px solid blue;
+  background-color: #fff;
+  color: blue;
+}
+
+.active-dest:hover {
+  border: 1px solid blue;
+  background-color: #fff;
+  color: blue;
+}
+
+.save-time {
+  background-color: #003B95;
+  height: 30vh;
+  color: #fff;
+  padding-top: 5vh;
+}
