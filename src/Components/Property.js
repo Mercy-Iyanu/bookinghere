@@ -2,10 +2,12 @@ import React from 'react'
 
 export default function Property() {
     return (
-        <div>
-            <button className='btn btn-primary'>List your property</button>
-            <hr />
-            <ul className='flex'>
+        <div className='listing'>
+            <div>
+                <button className='btn btn-light' style={{ border: '1px solid grey' }}>List your property</button>
+            </div>
+            <hr style={{ color: 'white' }} />
+            <ul className='d-flex'>
                 <li><a href='#'>Mobile version</a></li>
                 <li><a href='#'>Your account</a></li>
                 <li><a href='#'>Make changes online to your booking</a></li>
