@@ -84,6 +84,19 @@
   height: 15vh;
 }
 
+.mobile-links li a {
+  font-size: 0.7em;
+}
+
 .foot-links:hover {
   color: maroon;
+}
+
+.book-hold {
+  font-size: 0.8em;
+  color: #686666;
+}
+
+.copyright {
+  font-size: 0.7em;
 }

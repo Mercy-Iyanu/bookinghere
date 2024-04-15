@@ -121,16 +121,16 @@ export default function Footer() {
                 <a href='' className='text-primary'>Extranet Log-in</a>
             </div>
             <div className='container-fluid mt-5'>
-                <p>Copyright © 1996–2024 Booking.com™. All rights reserved.</p>
+                <p className='copyright'>Copyright © 1996–2024 Booking.com™. All rights reserved.</p>
             </div>
-            <div className='text-center mt-5'>
+            <div className='text-center book-hold mt-3'>
                 <p>Booking.com is part of Booking Holdings Inc., the world leader in online travel and related services.</p>
             </div>
             <div className='navbar navbar-expand-sm bg-light justify-content-center mt-2'>
-                <img src={process.env.PUBLIC_URL + './images/booking.com.png'} alt='bookingcom' className='img-fluid' />
-                <img src={process.env.PUBLIC_URL + './images/priceline.com.png'} alt='pricelinecom' className='img-fluid' />
-                <img src={process.env.PUBLIC_URL + './images/kayak.png'} alt='kayak' className='img-fluid' />
-                <img src={process.env.PUBLIC_URL + './images/agada.png'} alt='agada' className='img-fluid' />
+                <img src={process.env.PUBLIC_URL + './images/booking.com.png'} alt='bookingcom' className='img-fluid me-5' />
+                <img src={process.env.PUBLIC_URL + './images/priceline.com.png'} alt='pricelinecom' className='img-fluid me-5' />
+                <img src={process.env.PUBLIC_URL + './images/kayak.png'} alt='kayak' className='img-fluid me-5' />
+                <img src={process.env.PUBLIC_URL + './images/agada.png'} alt='agada' className='img-fluid me-5' />
                 <img src={process.env.PUBLIC_URL + './images/opentable.png'} alt='opentable' className='img-fluid' />
             </div>
         </div>
