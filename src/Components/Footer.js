@@ -117,16 +117,16 @@ export default function Footer() {
                     <td><a href='#' className='text-primary foot-link'>Content guidelines and reporting</a></td>
                 </tr>
             </table>
-            <div>
-                <a href=''>Extranet Log-in</a>
+            <div className='text-center mt-5'>
+                <a href='' className='text-primary'>Extranet Log-in</a>
             </div>
-            <div>
+            <div className='container-fluid mt-5'>
                 <p>Copyright © 1996–2024 Booking.com™. All rights reserved.</p>
             </div>
-            <div>
+            <div className='text-center mt-5'>
                 <p>Booking.com is part of Booking Holdings Inc., the world leader in online travel and related services.</p>
             </div>
-            <div className='navbar navbar-expand-sm bg-light justify-content-center'>
+            <div className='navbar navbar-expand-sm bg-light justify-content-center mt-2'>
                 <img src={process.env.PUBLIC_URL + './images/booking.com.png'} alt='bookingcom' className='img-fluid' />
                 <img src={process.env.PUBLIC_URL + './images/priceline.com.png'} alt='pricelinecom' className='img-fluid' />
                 <img src={process.env.PUBLIC_URL + './images/kayak.png'} alt='kayak' className='img-fluid' />
