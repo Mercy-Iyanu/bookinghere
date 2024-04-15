@@ -4,7 +4,7 @@ import '../App.css';
 
 export default function Navbar() {
     return (
-        <div>
+        <div className='navly'>
             <nav className="navbar navbar-expand-sm">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#"><a href="/" className="bookings-logo">

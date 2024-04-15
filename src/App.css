@@ -8,9 +8,13 @@
   margin-right: 7em;
 }
 
-.header {
+.navly {
   background-color: #003B95;
-  height: 60vh;
+}
+
+.header {
+  background-image: url(../public/images/wanderlust.jpg);
+  height: 70vh;
 }
 
 .booking-link a {
@@ -81,7 +85,7 @@
 
 .listing {
   background-color: blue;
-  height: 15vh;
+  height: 22vh;
 }
 
 .mobile-links li a {
@@ -100,3 +104,5 @@
 .copyright {
   font-size: 0.7em;
 }
+
+@media (max-width: 600px) {}

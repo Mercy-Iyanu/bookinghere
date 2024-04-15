@@ -3,8 +3,8 @@ import React from 'react'
 export default function Property() {
     return (
         <div className='listing'>
-            <div>
-                <button className='btn btn-light' style={{ border: '1px solid grey' }}>List your property</button>
+            <div className='text-center'>
+                <button className='btn mt-4 mb-3 text-white' style={{ border: '1px solid grey' }}>List your property</button>
             </div>
             <hr style={{ color: 'white' }} />
             <ul className='container-fluid d-flex text-white list-unstyled text-center mt-3 mobile-links'>
