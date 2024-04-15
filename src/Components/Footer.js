@@ -3,118 +3,118 @@ import React from 'react'
 export default function Footer() {
     return (
         <div>
-            <table className='table'>
+            <table className='table mt-3'>
                 <tr>
-                    <td><a href=''>Countries</a></td>
-                    <td><a href=''>Homes</a></td>
-                    <td><a href=''>Unique places to stay</a></td>
-                    <td><a href=''>Car rental</a></td>
-                    <td><a href=''>Coronavirus (COVID-19) FAQs</a></td>
+                    <td><a href='#' className='text-primary foot-link'>Countries</a></td>
+                    <td><a href='#' className='text-primary foot-link'>Homes</a></td>
+                    <td><a href='#' className='text-primary foot-link'>Unique places to stay</a></td>
+                    <td><a href='#' className='text-primary foot-link'>Car rental</a></td>
+                    <td><a href='#' className='text-primary foot-link'>Coronavirus (COVID-19) FAQs</a></td>
                 </tr>
                 <tr>
-                    <td><a href=''>Regions</a></td>
-                    <td><a href=''>Apartments</a></td>
-                    <td><a href=''>All destinations</a></td>
-                    <td><a href=''>Flight finder</a></td>
-                    <td><a href=''>About Booking.com</a></td>
+                    <td><a href='#' className='text-primary foot-link'>Regions</a></td>
+                    <td><a href='#' className='text-primary foot-link'>Apartments</a></td>
+                    <td><a href='#' className='text-primary foot-link'>All destinations</a></td>
+                    <td><a href='#' className='text-primary foot-link'>Flight finder</a></td>
+                    <td><a href='#' className='text-primary foot-link'>About Booking.com</a></td>
                 </tr>
                 <tr>
-                    <td><a href=''>Cities</a></td>
-                    <td><a href=''>Resort</a></td>
-                    <td><a href=''>All flight destinations</a></td>
-                    <td><a href=''>Restuarant reservations</a></td>
-                    <td><a href=''>Customer service help</a></td>
+                    <td><a href='#' className='text-primary foot-link'>Cities</a></td>
+                    <td><a href='#' className='text-primary foot-link'>Resort</a></td>
+                    <td><a href='#' className='text-primary foot-link'>All flight destinations</a></td>
+                    <td><a href='#' className='text-primary foot-link'>Restuarant reservations</a></td>
+                    <td><a href='#' className='text-primary foot-link'>Customer service help</a></td>
                 </tr>
                 <tr>
-                    <td><a href=''>Districts</a></td>
-                    <td><a href=''>Villas</a></td>
-                    <td><a href=''>All car rental locations</a></td>
-                    <td><a href=''>Booking.com for Travel Agents</a></td>
-                    <td><a href=''>Partner Help</a></td>
+                    <td><a href='#' className='text-primary foot-link'>Districts</a></td>
+                    <td><a href='#' className='text-primary foot-link'>Villas</a></td>
+                    <td><a href='#' className='text-primary foot-link'>All car rental locations</a></td>
+                    <td><a href='#' className='text-primary foot-link'>Booking.com for Travel Agents</a></td>
+                    <td><a href='#' className='text-primary foot-link'>Partner Help</a></td>
                 </tr>
                 <tr>
-                    <td><a href=''>Airports</a></td>
-                    <td><a href=''>Hostels</a></td>
-                    <td><a href=''>All vacation destinations</a></td>
+                    <td><a href='#' className='text-primary foot-link'>Airports</a></td>
+                    <td><a href='#' className='text-primary foot-link'>Hostels</a></td>
+                    <td><a href='#' className='text-primary foot-link'>All vacation destinations</a></td>
                     <td>-</td>
-                    <td><a href=''>Careers</a></td>
+                    <td><a href='#' className='text-primary foot-link'>Careers</a></td>
                 </tr>
                 <tr>
-                    <td><a href=''>Hotels</a></td>
-                    <td><a href=''>B&Bs</a></td>
-                    <td><a href=''>Reviews</a></td>
+                    <td><a href='#' className='text-primary foot-link'>Hotels</a></td>
+                    <td><a href='#' className='text-primary foot-link'>B&Bs</a></td>
+                    <td><a href='#' className='text-primary foot-link'>Reviews</a></td>
                     <td>-</td>
-                    <td><a href=''>Sustainability</a></td>
+                    <td><a href='#' className='text-primary foot-link'>Sustainability</a></td>
                 </tr>
                 <tr>
-                    <td><a href=''>Places of interest</a></td>
-                    <td><a href=''>Guest houses</a></td>
-                    <td><a href=''>Discover monthly stay</a></td>
+                    <td><a href='#' className='text-primary foot-link'>Places of interest</a></td>
+                    <td><a href='#' className='text-primary foot-link'>Guest houses</a></td>
+                    <td><a href='#' className='text-primary foot-link'>Discover monthly stay</a></td>
                     <td>-</td>
-                    <td><a href=''>Press Center</a></td>
-                </tr>
-                <tr>
-                    <td>-</td>
-                    <td>-</td>
-                    <td><a href=''>Unpacked: Travel articles</a></td>
-                    <td>-</td>
-                    <td><a href=''>Safety Resource Center</a></td>
+                    <td><a href='#' className='text-primary foot-link'>Press Center</a></td>
                 </tr>
                 <tr>
                     <td>-</td>
                     <td>-</td>
-                    <td><a href=''>Seasonal and holiday deals</a></td>
+                    <td><a href='#' className='text-primary foot-link'>Unpacked: Travel articles</a></td>
                     <td>-</td>
-                    <td><a href=''>Investor relations</a></td>
+                    <td><a href='#' className='text-primary foot-link'>Safety Resource Center</a></td>
                 </tr>
                 <tr>
                     <td>-</td>
                     <td>-</td>
-                    <td><a href=''>Traveller Review Awards</a></td>
+                    <td><a href='#' className='text-primary foot-link'>Seasonal and holiday deals</a></td>
                     <td>-</td>
-                    <td><a href=''>Terms and Conditions</a></td>
+                    <td><a href='#' className='text-primary foot-link'>Investor relations</a></td>
                 </tr>
                 <tr>
                     <td>-</td>
                     <td>-</td>
+                    <td><a href='#' className='text-primary foot-link'>Traveller Review Awards</a></td>
                     <td>-</td>
-                    <td>-</td>
-                    <td><a href=''>Partner dispute</a></td>
+                    <td><a href='#' className='text-primary foot-link'>Terms and Conditions</a></td>
                 </tr>
                 <tr>
                     <td>-</td>
                     <td>-</td>
                     <td>-</td>
                     <td>-</td>
-                    <td><a href=''>How We Work</a></td>
+                    <td><a href='#' className='text-primary foot-link'>Partner dispute</a></td>
                 </tr>
                 <tr>
                     <td>-</td>
                     <td>-</td>
                     <td>-</td>
                     <td>-</td>
-                    <td><a href=''>Privacy & Cookie statement</a></td>
+                    <td><a href='#' className='text-primary foot-link'>How We Work</a></td>
                 </tr>
                 <tr>
                     <td>-</td>
                     <td>-</td>
                     <td>-</td>
                     <td>-</td>
-                    <td><a href=''>MSA statement</a></td>
+                    <td><a href='#' className='text-primary foot-link'>Privacy & Cookie statement</a></td>
                 </tr>
                 <tr>
                     <td>-</td>
                     <td>-</td>
                     <td>-</td>
                     <td>-</td>
-                    <td><a href=''>Corporate contact</a></td>
+                    <td><a href='#' className='text-primary foot-link'>MSA statement</a></td>
                 </tr>
                 <tr>
                     <td>-</td>
                     <td>-</td>
                     <td>-</td>
                     <td>-</td>
-                    <td><a href=''>Content guidelines and reporting</a></td>
+                    <td><a href='#' className='text-primary foot-link'>Corporate contact</a></td>
+                </tr>
+                <tr>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td><a href='#' className='text-primary foot-link'>Content guidelines and reporting</a></td>
                 </tr>
             </table>
             <div>

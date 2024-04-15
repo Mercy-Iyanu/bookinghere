@@ -83,3 +83,7 @@
   background-color: blue;
   height: 15vh;
 }
+
+.foot-links:hover {
+  color: maroon;
+}
