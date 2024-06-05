@@ -15,6 +15,7 @@
 .header {
   background-image: url(../public/images/wanderlust.jpg);
   height: 70vh;
+  background-size: cover;
 }
 
 .booking-link a {
